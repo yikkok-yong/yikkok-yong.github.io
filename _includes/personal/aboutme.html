@@ -1,0 +1,32 @@
+<section class="pb-3">
+    <p class="lead font-weight-bold">Yong Yik Kok (John)</p>
+</section>
+<section class="pb-3">
+    <h4><u>Education</u></h4>
+    <p><strong>Diploma in Web Development at <a href="https://www.newera.edu.my/">New Era University College</a></strong></p>
+</section>
+<section class="pb-3">
+    <h4><u>Employment</u></h4>
+    <p>Junior Web Developer, Ant Internet Sdn Bhd</p>
+    <ul>
+        <li>Develop RESTful API</li>
+        <li>Develop smart contract (Ethereum platform)</li>
+    </ul>
+</section>
+<section class="pb-3">
+    <h4><u>Skill</u></h4>
+    {% for title in site.skills_title %}
+    <div class="row">
+        <div class="col-4">
+            {{ title }}:
+        </div>
+        <div class="col-8">
+            {% for skill in site.my_skills %}
+                {{ skill[title] }}
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+    <div>
+    </div>
+</section>
