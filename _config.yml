@@ -46,7 +46,7 @@ my_skills:
   - 'Applications': 'Visual Studio Code, Git, Trello'
   - 'OS': 'Windows, Linux (Ubuntu)'
   - 'Framework': 'Laravel, ExpressJS, Truffle, Bootstrap 3 and 4, React Native'
-  - 'Others': 'Unit Test'
+  - 'Others': 'Unit Test, NPM'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -2,16 +2,18 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700');
 
 // Color
 $black:    #000 !default;
 
 $font-family-serif: 'Josefin Slab', serif, !default;
 $font-family-base:  $font-family-serif !default;
-$font-size-base:    1rem !default;
+$font-size-base:    1.2rem !default;
 
 $hr-border-color:   rgba($black, .5) !default;
+
+$primary: #5203FF !default;
 
 @import "bootstrap";
 
@@ -22,4 +24,8 @@ $hr-border-color:   rgba($black, .5) !default;
 
 .yk-post-divider {
     border-color: rgba($black, 0.2);
+}
+
+.yk-post .post-link .btn.btn-primary {
+    color: #FFF23D;
 }

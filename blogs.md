@@ -20,14 +20,21 @@ permalink: /blogs/
                     </div>
                     <div class="col-3">
                         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                        <span class="post-meta">{{ post.date | date: date_format }}</span>
+                        <span class="post-meta float-right">{{ post.date | date: date_format }}</span>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12 mb-2">
                         {% if site.show_excerpts %}
-                            {{ post.excerpt | strip_newlines | remove: '<p>' | remove: '</p>' }} &#91;<a class="post-link" href="{{ post.url | relative_url }}">Read More...</a>&#93;
+                            {{ post.excerpt | strip_newlines | remove: '<p>' | remove: '</p>' }}
                         {% endif %}
+                    </div>
+                    <div class="col-12">
+                        <a class="post-link" href="{{ post.url | relative_url }}">
+                            <button class="btn btn-primary float-right">
+                                <strong>Read More...</strong>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
