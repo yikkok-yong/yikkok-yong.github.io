@@ -11,16 +11,17 @@
     <ul>
         <li>Develop RESTful API</li>
         <li>Develop smart contract (Ethereum platform)</li>
+        <li>Develop Android app (React Native)</li>
     </ul>
 </section>
 <section class="pb-3">
     <h4><u>Skill</u></h4>
     {% for title in site.skills_title %}
     <div class="row mb-2">
-        <div class="col-5 text-right">
+        <div class="col-3 text-right">
             {{ title }}:
         </div>
-        <div class="col-7">
+        <div class="col-9">
             {% for skill in site.my_skills %}
                 {{ skill[title] }}
             {% endfor %}
