@@ -41,12 +41,12 @@ skills_title:
  - 'Framework'
  - 'Others'
 my_skills:
-  - 'Programming Langauge': 'PHP, Javascript, Java, Python, Solidity'
+  - 'Programming Langauge': 'PHP, Android, Javascript, ECMAScript'
   - 'Markup Langauge': 'HTML5'
   - 'Applications': 'Visual Studio Code, Git, Trello'
   - 'OS': 'Windows, Linux (Ubuntu)'
-  - 'Framework': 'Laravel, ExpressJS, Truffle, Bootstrap 3 and 4, React Native'
-  - 'Others': 'Unit Test, NPM'
+  - 'Framework': 'Angular, Truffle, Bootstrap 3 and 4, React Native'
+  - 'Others': 'NPM/Yarn'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
