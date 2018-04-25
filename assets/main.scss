@@ -26,6 +26,14 @@ $primary: #5203FF !default;
     border-color: rgba($black, 0.2);
 }
 
-.yk-post .post-link .btn.btn-primary {
-    color: #FFF23D;
+.yk-post {
+    .post-link {
+        .btn.btn-primary {
+            color: #FFF23D;
+        }
+    }
+}
+
+.yk-home {
+
 }

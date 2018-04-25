@@ -11,14 +11,14 @@ permalink: /blogs/
         <div class="row yk-post">
             <div class="col">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-md-9">
                         <h4>
                             <a class="post-link" href="{{ post.url | relative_url }}">
                             {{ post.title | escape }}
                             </a>
                         </h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3">
                         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                         <span class="post-meta float-right">{{ post.date | date: date_format }}</span>
                     </div>

@@ -9,19 +9,19 @@
     <h4><u>Employment</u></h4>
     <p>Web Developer, Ant Internet Sdn Bhd</p>
     <ul>
-        <li>Develop RESTful API</li>
-        <li>Develop smart contract (Ethereum platform)</li>
-        <li>Develop Android app (React Native)</li>
+        <li>Developed <b>smart contract (Ethereum platform)</b></li>
+        <li>Developed <b>Android app (React Native)</b></li>
+        <li>Developed <b>Web Application (Angular 4)</b></li>
     </ul>
 </section>
 <section class="pb-3">
     <h4><u>Skill</u></h4>
     {% for title in site.skills_title %}
-    <div class="row mb-2">
-        <div class="col-3 text-right">
+    <div class="row mb-3">
+        <div class="col-md-3 col-xs-6 d-none d-md-block">
             {{ title }}:
         </div>
-        <div class="col-9">
+        <div class="col-md-9 col-xs-6">
             {% for skill in site.my_skills %}
                 {{ skill[title] }}
             {% endfor %}
