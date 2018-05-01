@@ -5,6 +5,7 @@ date:   2018-03-18 10:00:00 +0800
 categories: icon svg css
 author: John Yong
 excerpt_separator: <!--Read More...-->
+published: false
 ---
 
 How to create css icon from svg file...

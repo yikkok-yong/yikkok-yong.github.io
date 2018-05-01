@@ -1,0 +1,22 @@
+<aside class="col-12 col-md-2 p-0 sidebar">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+
+    {% if page_paths %}
+    <nav class="navbar navbar-expand">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#my-navbar-1" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-100" id="my-navbar-1">
+            <ul class="navbar-nav flex-md-column flex-row navbar-nav w-100 justify-content-between">
+                {% for path in page_paths %}
+                    {% assign my_page = site.pages | where: "path", path | first %}
+                    {% if my_page.title %}
+                        <li class="nav-item"><a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+    {% endif %}
+</aside>

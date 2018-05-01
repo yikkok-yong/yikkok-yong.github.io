@@ -4,11 +4,11 @@ title: Blogs
 permalink: /blogs/
 ---
 
-<div class="home">
+<div class="blog-home">
     {% if site.posts.size > 0 %}
         <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
         {% for post in site.posts %}
-        <div class="row yk-post">
+        <div class="row yk-post pr-3 pl-3">
             <div class="col">
                 <div class="row">
                     <div class="col-md-9">
@@ -39,7 +39,7 @@ permalink: /blogs/
                 </div>
             </div>
         </div>
-        <hr class="yk-post-divider" />
+        <hr />
         {% endfor %}
     {% endif %}
 </div>

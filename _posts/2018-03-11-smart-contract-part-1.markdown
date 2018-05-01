@@ -2,7 +2,7 @@
 layout: post
 title:  "Ethereum Smart Contract - Part 1"
 date:   2018-03-11 10:00:00 +0800
-categories: tech ethereum smart-contract
+categories: ethereum smart-contract
 author: John Yong
 excerpt_separator: <!--Read More...-->
 ---

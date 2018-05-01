@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 <div class="justify-content-around">
-    <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="nav-item active"><a href="#me" class="nav-link" aria-controls="me" role="tab" data-toggle="tab">About Me</a></li>
+    <ul class="nav nav-tabs about-me" role="tablist">
+        <li role="presentation" class="nav-item"><a href="#me" class="nav-link active" aria-controls="me" role="tab" data-toggle="tab">About Me</a></li>
         <li role="presentation" class="nav-item"><a href="#site" class="nav-link" aria-controls="site" role="tab" data-toggle="tab">About This Site</a></li>
     </ul>
     <div class="tab-content">
