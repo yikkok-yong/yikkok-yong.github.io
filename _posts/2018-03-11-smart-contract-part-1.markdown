@@ -7,7 +7,7 @@ author: John Yong
 excerpt_separator: <!--Read More...-->
 ---
 
-Preparation for writing smart contract on Ethereum
+Preparation for create smart contract on Ethereum
 <!--Read More...-->
 
 <br />

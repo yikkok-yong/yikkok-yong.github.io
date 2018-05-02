@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry p-3" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header jumbotron">
     <h2 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h2>
@@ -15,13 +15,11 @@ layout: default
       {% endif %}</p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content e-content pb-5" itemprop="articleBody">
     {{ content }}
   </div>
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
