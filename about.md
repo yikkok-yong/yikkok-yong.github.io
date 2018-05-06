@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: About Me
+link-title: About
 permalink: /about/
 ---
 
@@ -22,6 +23,7 @@ permalink: /about/
                 <li><a href="https://jekyllrb.com/">Jekyll</a></li>
                 <li><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4</a></li>
                 <li><a href="https://fonts.google.com/specimen/Josefin+Slab">Font family: Josefin Slab</a></li>
+                <li><a href="https://fonts.google.com/specimen/Josefin+Sans">Font family: Josefin Sans</a></li>
                 <li><a href="https://openclipart.org/detail/12979/lemon">Favicon</a></li>
             </ul>
         </div>
