@@ -25,6 +25,10 @@ $link-color: $yellow !default;
 @import "extra/sidebar";
 @import "extra/timeline";
 
+pre {
+    color: $white;
+}
+
 .yk-post {
     margin-top: 1rem;
     margin-bottom: 1rem;
