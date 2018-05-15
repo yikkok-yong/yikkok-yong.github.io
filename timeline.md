@@ -11,6 +11,24 @@ permalink: /timeline/
     <div class="timeline">
         <div class="container right">
             <div class="content">
+                <h5>April, 2018</h5>
+                <p>Develop web application using Angular 4, Restful API using Laravel</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h5>Feb, 2018</h5>
+                <p>Developed a prototype dApp using React Native, project requirement.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h5>Dec, 2017</h5>
+                <p>Developed first smart contract using solidity, project requirement.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
                 <h5>Sept, 2017</h5>
                 <p>Web Developer, <a href="http://ant-internet.com/" target="_blank">Ant Internet Sdn Bhd</a></p>
             </div>
