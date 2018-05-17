@@ -1,0 +1,8 @@
+/* TEAM */
+Your title: Yik Kok Yong
+Site: https://yikkok-yong.github.io/contact/
+Location: Seri Kembangan, Malaysia.
+
+/* SITE */
+Last update: YYYY/MM/DD 
+Software: Software used for the development
