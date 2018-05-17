@@ -28,6 +28,7 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-sitemap
 
 livereload: true
 reload_port: 5678
