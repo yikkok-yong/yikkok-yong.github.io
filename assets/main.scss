@@ -24,10 +24,7 @@ $link-color: $yellow !default;
 @import "bootstrap";
 @import "extra/sidebar";
 @import "extra/timeline";
-
-pre {
-    color: $white;
-}
+@import "extra/o_reboot";
 
 .yk-post {
     margin-top: 1rem;
