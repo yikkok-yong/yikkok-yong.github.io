@@ -3,6 +3,7 @@ layout: page
 title: My Blogs
 link-title: Blogs
 permalink: /blogs/
+published: false
 ---
 
 <div class="blog-home">

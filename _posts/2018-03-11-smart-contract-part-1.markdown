@@ -44,3 +44,6 @@ Before dive into Ethereum smart contract, it is recommended to have a basic unde
 * [Ethereum Wallet](https://github.com/ethereum/mist/releases)
 * [Ethereum Command Line Tools](https://ethereum.org/cli)
 * [Ethereum in docker](https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker)
+
+##### Linked Resources
+* [Ethereum Smart Contract - Part 2]({% post_url 2018-05-27-smart-contract-part-2 %})
